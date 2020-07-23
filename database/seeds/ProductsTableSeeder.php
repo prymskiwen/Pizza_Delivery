@@ -12,66 +12,66 @@ class ProductsTableSeeder extends Seeder
     public function run()
     {
         DB::table('products')->insert([
-            'name' => 'Playstation 4',
-            'slug' => 'playstation-4',
-            'description' => 'description goes here',
-            'price' => 399.99,
-            'image' => 'ps4.jpg',
+            'name' => 'Pizza 1',
+            'slug' => 'pizza-1',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 84.99,
+            'image' => 'pizza_1.jpg',
         ]);
 
         DB::table('products')->insert([
-            'name' => 'Xbox One',
-            'slug' => 'xbox-one',
-            'description' => 'description goes here',
-            'price' => 449.99,
-            'image' => 'xbox-one.jpg',
+            'name' => 'Pizza 2',
+            'slug' => 'pizza-2',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 68.99,
+            'image' => 'pizza_2.jpg',
         ]);
 
         DB::table('products')->insert([
-            'name' => 'Apple Macbook Pro',
-            'slug' => 'macbook-pro',
-            'description' => 'description goes here',
-            'price' => 2299.99,
-            'image' => 'macbook-pro.jpg',
+            'name' => 'Pizza 3',
+            'slug' => 'pizza-3',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 84.99,
+            'image' => 'pizza_3.jpg',
         ]);
 
         DB::table('products')->insert([
-            'name' => 'Apple iPad Retina',
-            'slug' => 'ipad-retina',
-            'description' => 'description goes here',
-            'price' => 799.99,
-            'image' => 'ipad-retina.jpg',
+            'name' => 'Pizza 4',
+            'slug' => 'pizza-4',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 86.99,
+            'image' => 'pizza_4.jpg',
         ]);
 
         DB::table('products')->insert([
-            'name' => 'Acoustic Guitar',
-            'slug' => 'acoustic-guitar',
-            'description' => 'description goes here',
-            'price' => 699.99,
-            'image' => 'acoustic.jpg',
+            'name' => 'Pizza 5',
+            'slug' => 'pizza-5',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 75.99,
+            'image' => 'pizza_5.jpg',
         ]);
         DB::table('products')->insert([
-            'name' => 'Electric Guitar',
-            'slug' => 'electric-guitar',
-            'description' => 'description goes here',
-            'price' => 899.99,
-            'image' => 'electric.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'name' => 'Headphones',
-            'slug' => 'headphones',
-            'description' => 'description goes here',
-            'price' => 99.99,
-            'image' => 'headphones.jpg',
+            'name' => 'Pizza 6',
+            'slug' => 'pizza-6',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 86.99,
+            'image' => 'pizza_6.jpg',
         ]);
 
         DB::table('products')->insert([
-            'name' => 'Speakers',
-            'slug' => 'speakers',
-            'description' => 'description goes here',
-            'price' => 499.99,
-            'image' => 'speakers.jpg',
+            'name' => 'Pizza 7',
+            'slug' => 'pizza-7',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 76.99,
+            'image' => 'pizza_7.jpg',
+        ]);
+
+        DB::table('products')->insert([
+            'name' => 'Pizza 8',
+            'slug' => 'pizza-8',
+            'description' => 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero',
+            'price' => 85.99,
+            'image' => 'pizza_8.jpg',
         ]);
     }
 }

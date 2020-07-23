@@ -1,11 +1,3 @@
-# Laravel Shopping Cart Example
-
-An example Laravel App with Shopping Cart functionality. Uses [Crinsane/LaravelShoppingcart](https://github.com/Crinsane/LaravelShoppingcart)
-
-Demo: <http://cartdemo.andredemos.ca/>
-
-Blog Post: <http://andremadarang.com/implementing-a-shopping-cart-in-laravel/>
-
 ## Installation
 
 This is just local installation using something like MAMP/WAMP or xampp. Of course you are free to use homestead if you like.
